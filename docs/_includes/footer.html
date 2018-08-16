@@ -1,21 +1,6 @@
 <footer>
-{% if page.url contains "/about" %}
-  {% assign about = true %}
-{% endif %}
-{% if page.url contains "/en/" %}
-  {% assign en = true %}
-  {% assign lang = "en" %}
-{% endif %}
-<div id="footer">
-  <span class="credits left">&copy; 2016-{{ 'now' | date: "%Y" }}</span>
-  {% if en %}
-  <span class="credits right">{% if about %}About this site{% else %}<a href="/{{ lang }}/about">About this site</a>{% endif %}</span>
-  {% else %}
-  <span class="credits right">{% if about %}Об этом сайте{% else %}<a href="/about">Об этом сайте</a>{% endif %}</span>
-  {% endif %}
-</div>
-</section>
 </footer>
+</section>
 </div>
 {% if site.google_analytics %}
 <script type="text/javascript">
