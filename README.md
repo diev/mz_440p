@@ -62,7 +62,7 @@ Const DatePath = "yyyy\\MM\\dd\\"
 **mz** - это код посылок по 440-П в обмене [ПТК ПСД](http://ptkpsd.ru/) 
 Банка России, где они так и продолжают оставаться в разделе "Положение 365-П". 
 Для мониторинга обмена ПТК ПСД рекомендуется легкий 
-[PTK-PSD Browser](http://diev.github.io/PTK-PSD-Browser-hta)
+[PTK-PSD Browser](http://diev.github.io/PTK-PSD-Browser-hta).
 
 ## License
 
